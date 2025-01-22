@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  questdb:
+    image: questdb/questdb:7.3.7
+    container_name: questdb_stocks
+    ports:
+      - "9000:9000"
+      - "9009:9009"
+      - "8812:8812"
+    volumes:
+      - questdb_data:/root/.questdb
+    environment:
+      QDB_PG_ENABLED: "true"
+      QDB_PG_PORT: "8812"
+      QDB_HTTP_ENABLED: "true"
+      QDB_HTTP_PORT: "9000"
+      QDB_ILP_ENABLED: "true"
+      QDB_ILP_PORT: "9009"
+
+volumes:
+  questdb_data:

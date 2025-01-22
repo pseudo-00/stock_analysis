@@ -1,0 +1,6 @@
+symbols:
+  - AAPL
+  - GOOGL
+  - MSFT
+interval: '1m'
+fetch_interval: 60
