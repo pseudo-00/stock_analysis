@@ -19,7 +19,7 @@ This project is a stock market analysis tool that helps investors make data-driv
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/stock_analysis.git
+git clone https://github.com/pseudo-00/stock_analysis.git
 
 # Navigate to project directory
 cd stock_analysis
