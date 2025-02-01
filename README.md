@@ -19,7 +19,7 @@ This project is a stock market analysis tool that helps investors make data-driv
 
 ```bash
 # Clone the repository
-git clone https://github.com/rankirat-singh/stock_analysis
+git clone https://github.com/rankirat-singh/stock_analysis.git
 
 # Navigate to project directory
 cd stock_analysis
